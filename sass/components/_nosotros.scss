@@ -1,0 +1,32 @@
+.nosotros h1 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nosotros h2 {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.nosotros p {
+    text-align: center;
+}
+
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.miembro-equipo {
+    text-align: center;
+    padding: 1rem;
+}
+
+.miembro-equipo img {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
+}

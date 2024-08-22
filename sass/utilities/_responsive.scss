@@ -1,0 +1,47 @@
+// _responsive.scss
+
+// Media Queries
+$breakpoint-large: 1040px;
+$breakpoint-medium: 768px;
+$breakpoint-small: 450px;
+
+@media (max-width: $breakpoint-large) {
+    .header .logo img {
+    max-height: 3.5rem;
+    }
+    nav ul li {
+    margin-left: 0.75rem;
+    }
+    .search input[type="text"] {
+    width: 12rem;
+    }
+    .producto, .ropa {
+    width: 30%;
+    }
+}
+
+@media (max-width: $breakpoint-medium) {
+    header {
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .search input[type="text"] {
+    width: 100%;
+    }
+    .producto, .ropa {
+    width: 45%;
+    }
+}
+
+@media (max-width: $breakpoint-small) {
+    .search input[type="text"] {
+    width: 100%;
+    font-size: 0.875rem;
+    }
+    .producto, .ropa {
+    width: 90%;
+    }
+    .filtros {
+    width: 100%;
+    }
+}

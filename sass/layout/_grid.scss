@@ -1,0 +1,10 @@
+// _grid.scss
+
+// Variables para el grid
+$grid-gap: 2rem;
+
+// Estilos para el grid
+.grid {
+    display: grid;
+    gap: $grid-gap;
+}

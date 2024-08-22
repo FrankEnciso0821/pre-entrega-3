@@ -1,0 +1,20 @@
+// _helpers.scss
+
+// Mixins para flexbox
+@mixin flex-center($direction: row, $align: center, $justify: center) {
+    display: flex;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    }
+    
+  // Mixins para border radius
+    @mixin border-radius($radius) {
+    border-radius: $radius;
+    }
+    
+  // Box shadow mixin
+    @mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+    }
+    

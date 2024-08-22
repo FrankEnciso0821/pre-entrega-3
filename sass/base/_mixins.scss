@@ -1,0 +1,16 @@
+// Mixins para box-shadow
+@mixin box-shadow($shadow) {
+    -webkit-box-shadow: $shadow;
+    -moz-box-shadow: $shadow;
+    box-shadow: $shadow;
+}
+
+  // Mixins para border-radius
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+  // Mixins para text-shadow
+@mixin text-shadow($shadow) {
+    text-shadow: $shadow;
+}

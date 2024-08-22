@@ -1,0 +1,56 @@
+.catalogo {
+    display: flex;
+}
+
+.filtros {
+    width: 20%;
+    padding: 1rem;
+    background-color: #b4bcad;
+    box-shadow: 2px 2px .3125rem rgba(0, 0, 0, 0.1);
+}
+
+.filtros h2 {
+    margin-top: 0;
+}
+
+.filtros .filtro h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.filtros .filtro ul {
+    list-style: none;
+    padding: 0;
+}
+
+.filtros .filtro ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.ropas {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.ropa {
+    width: 22%;
+    background-color: #b4bcad;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: .625rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.ropa img {
+    max-width: 100%;
+    border-radius: .625rem;
+}
+
+.ropa p {
+    margin: 0.5rem 0 0;
+    font-size: 1rem;
+}

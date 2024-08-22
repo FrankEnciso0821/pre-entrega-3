@@ -1,0 +1,13 @@
+// _sidebar.scss
+
+// Variables para la barra lateral
+$sidebar-background-color: #b4bcad;
+$sidebar-width: 20%;
+
+// Estilos para la barra lateral
+.sidebar {
+    width: $sidebar-width;
+    padding: 1rem;
+    background-color: $sidebar-background-color;
+    box-shadow: 2px 2px 0.3125rem rgba(0, 0, 0, 0.1);
+}

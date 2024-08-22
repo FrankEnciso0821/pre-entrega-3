@@ -1,0 +1,36 @@
+footer {
+    background-color: #6C733D;
+    color: white;
+    text-align: center;
+    padding: .01rem;
+    margin: 0;
+}
+
+footer .contacto {
+    margin-bottom: 1rem;
+}
+
+.contacto p {
+    text-align: start;
+    color: #313131;
+}
+
+footer .redes-sociales {
+    display: flex;
+    justify-content: start;
+    gap: 1rem;
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
+
+.correo p {
+    text-align: end;
+    color: #313131;
+}
+
+.derechos p {
+    text-align: start;
+    color: #313131;
+}
